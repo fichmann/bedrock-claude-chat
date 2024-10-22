@@ -11,6 +11,7 @@ import fr from './fr';
 import de from './de';
 import it from './it';
 import nb from './nb';
+import pt from './pt';
 
 export const LANGUAGES: {
   value: string;
@@ -31,6 +32,10 @@ export const LANGUAGES: {
   {
     value: 'es',
     label: 'Español',
+  },
+  {
+    value: 'pt',
+    label: 'Portugues',
   },
   {
     value: 'ja',
