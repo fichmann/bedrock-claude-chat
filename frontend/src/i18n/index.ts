@@ -74,6 +74,7 @@ const resources = {
   zhhans,
   zhhant,
   nb,
+  pt,
 };
 
 // Settings i18n
