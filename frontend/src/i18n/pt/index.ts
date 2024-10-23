@@ -24,7 +24,7 @@ const translation = {
         sitemap: 'URL do mapa do site',
         file: 'Arquivo',
         loadingBot: 'Carregando...',
-        normalChat: 'Chat',
+        normalChat: 'ChatGPT',
         notAvailableBot: '[Nao Disponivel]',
         notAvailableBotInputMessage: 'Este Agente NAO está disponivel.',
         noDescription: 'Sem Descricao',

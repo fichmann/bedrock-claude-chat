@@ -279,7 +279,14 @@ const ChatListDrawer: React.FC<Props> = (props) => {
               isActive={false}
               icon={<PiCompass />}
               to="/bot/explore"
-              labelComponent={getPageLabel('/bot/explore')}
+              labelComponent={t('button.botConsole')}
+              onClick={closeSamllDrawer}
+            />
+	    <DrawerItem
+              isActive={false}
+              icon={<PiCompass />}
+              to="/bot/01JAWSC46EETTHXH82TKZWDBE"
+              labelComponent="Apostilas"
               onClick={closeSamllDrawer}
             />
             {props.isAdmin && (
