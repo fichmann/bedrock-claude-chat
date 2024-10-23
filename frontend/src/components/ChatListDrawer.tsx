@@ -275,17 +275,10 @@ const ChatListDrawer: React.FC<Props> = (props) => {
               onClick={onClickNewChat}
               labelComponent={t('button.newChat')}
             />
-            <DrawerItem
-              isActive={false}
-              icon={<PiCompass />}
-              to="/bot/explore"
-              labelComponent={t('button.botConsole')}
-              onClick={closeSamllDrawer}
-            />
 	    <DrawerItem
               isActive={false}
               icon={<PiCompass />}
-              to="/bot/01JAWSC46EETTHXH82TKZWDBE"
+              to="/bot/01JAWSC46EETTHXH82TKZWDBE3"
               labelComponent="Apostilas"
               onClick={closeSamllDrawer}
             />
@@ -293,6 +286,13 @@ const ChatListDrawer: React.FC<Props> = (props) => {
               <ExpandableDrawerGroup
                 label={t('app.adminConsoles')}
                 className="border-t pt-1">
+	        <DrawerItem
+          	  isActive={false}
+              	  icon={<PiCompass />}
+              	  to="/bot/explore"
+              	  labelComponent={t('button.botConsole')}
+              	  onClick={closeSamllDrawer}
+            	/>
                 <DrawerItem
                   isActive={false}
                   icon={<PiShareNetwork />}
