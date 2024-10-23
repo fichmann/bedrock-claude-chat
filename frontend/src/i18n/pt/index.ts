@@ -9,16 +9,16 @@ const translation = {
       name: 'AI da Silvia Fichmann',
       nameWithoutClaude: 'AI - Silvia Fichmann',
       inputMessage: 'Fazer uma Pergunta',
-      starredBots: 'Agentes de AI Favoritos',
-      recentlyUsedBots: 'Agentes AI Usados Recentemente',
+      starredBots: 'AI Favoritos',
+      recentlyUsedBots: 'AI Usados Recentemente',
       conversationHistory: 'Historico de Conversas',
       chatWaitingSymbol: '▍',
       adminConsoles: 'Administradores',
     },
     bot: {
       label: {
-        myBots: 'Meus Robots',
-        recentlyUsedBots: 'Robos compartilhados usados recentemente',
+        myBots: 'Agentes de AI',
+        recentlyUsedBots: 'AI compartilhados usados recentemente',
         knowledge: 'Informacoes',
         url: 'URL',
         sitemap: 'URL do mapa do site',
@@ -26,10 +26,10 @@ const translation = {
         loadingBot: 'Carregando...',
         normalChat: 'Chat',
         notAvailableBot: '[Nao Disponivel]',
-        notAvailableBotInputMessage: 'Este robo NAO está disponivel.',
+        notAvailableBotInputMessage: 'Este Agente NAO está disponivel.',
         noDescription: 'Sem Descricao',
-        notAvailable: 'Este robo NAO está disponivel.',
-        noBots: 'Nao existem Robos.',
+        notAvailable: 'Este agente NAO está disponivel.',
+        noBots: 'Nao existem Agentes.',
         noBotsRecentlyUsed: 'Nao existem robos compartilhados usados recentemente.',
         retrievingKnowledge: '[Buscando Resposta...]',
         dndFileUpload: 'Puedes subir archivos arrastrando y soltando.\nArchivos soportados: {{fileExtensions}}',
@@ -49,7 +49,7 @@ const translation = {
       },
       titleSubmenu: {
         edit: 'Editar',
-        copyLink: 'Copiar Enlace',
+        copyLink: 'Copiar Link',
         copiedLink: 'Copiado',
       },
       help: {
@@ -104,10 +104,10 @@ Las categorías de clasificación son:
         },
       },
       create: {
-        pageTitle: 'Crear Mi Bot',
+        pageTitle: 'Criar um Agente',
       },
       edit: {
-        pageTitle: 'Editar Mi Bot',
+        pageTitle: 'Editar meu Agente',
       },
 
       item: {
@@ -191,23 +191,23 @@ Las categorías de clasificación son:
         },
       },
       button: {
-        newBot: 'Crear Nuevo Bot',
-        create: 'Crear',
+        newBot: 'Criar Agente',
+        create: 'Criar',
         edit: 'Editar',
         delete: 'Eliminar',
-        share: 'Compartir',
-        apiSettings: 'Configuración de Publicación de API',
+        share: 'Compartilhar',
+        apiSettings: 'Configurar API',
         copy: 'Copiar',
         copied: 'Copiado',
-        instructionsSamples: 'Muestras',
-        chooseFiles: 'Elegir archivos',
+        instructionsSamples: 'Mostrar',
+        chooseFiles: 'Selecionar Arquivos',
       },
       deleteDialog: {
-        title: '¿Eliminar?',
-        content: '¿Estás seguro de eliminar <Bold>{{title}}</Bold>?',
+        title: 'Apagar?',
+        content: 'Confirmar apagar <Bold>{{title}}</Bold>?',
       },
       shareDialog: {
-        title: 'Compartir',
+        title: 'Compartilhar',
         off: {
           content: 'La compartición de enlace está desactivada, por lo tanto, solo tú puedes acceder a este bot a través de su URL.',
         },
@@ -248,7 +248,7 @@ Las categorías de clasificación son:
       },
       botManagement: {
         label: {
-          pageTitle: 'Gestión de Bots',
+          pageTitle: 'Gerenciar Agentes',
           sharedUrl: 'URL de Bot Compartido',
           apiSettings: 'Configuración de Publicación de API',
           noKnowledge: 'Este bot no tiene Conocimiento.',
@@ -282,11 +282,11 @@ Las categorías de clasificación son:
       content: '¿Estás seguro de eliminar <Bold>{{title}}</Bold>?',
     },
     clearDialog: {
-      title: '¿Eliminar TODO?',
-      content: '¿Estás seguro de eliminar TODAS las conversaciones?',
+      title: 'Eliminar todas?',
+      content: 'Confirma remocao de todas as conversas?',
     },
     languageDialog: {
-      title: 'Cambiar idioma',
+      title: 'Alterar idioma',
     },
     button: {
       newChat: 'ChatGPT',
@@ -305,11 +305,11 @@ Las categorías de clasificación son:
       back: 'Voltar',
       menu: 'Menu',
       language: 'Idioma',
-      clearConversation: 'Eliminar TODAS las conversaciones',
-      signOut: 'Cerrar sesión',
-      close: 'Cerrar',
+      clearConversation: 'Apagar Conversas',
+      signOut: 'Desconectar/Sair',
+      close: 'Fechar',
       add: 'Agregar',
-      continue: 'Seguir generando',
+      continue: 'Continuar',
     },
     input: {
       hint: {
